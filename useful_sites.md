@@ -1,2 +1,3 @@
 - https://github.com/socialfoundations/folktables
 - https://www.census.gov/programs-surveys/acs/microdata/access.html
+- https://api.census.gov/data/2023/acs/acs1/pums/variables.html

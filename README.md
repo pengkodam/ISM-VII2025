@@ -14,3 +14,12 @@ Beyond technical contributions, this keynote speaks to the professional identity
 
 - [Folktables](https://github.com/socialfoundations/folktables)
 - [Public Use Microdata Sample (PUMS)](https://www.census.gov/programs-surveys/acs/microdata/access.html)
+
+## Reproducibility Instructions
+
+To ensure that you are using the complete and correct dataset, please follow these steps:
+
+1. **Run the `california_pums_full_eda.ipynb` notebook.** This notebook will download and process the data, creating the `california_pums_2023_complete.csv` file.
+2. **Run the `demo 23082025.ipynb` notebook.** This notebook uses the `california_pums_2023_complete.csv` file generated in the previous step to perform the analysis.
+
+Following this order is crucial to prevent the use of synthetic data and to ensure the reproducibility of the results.

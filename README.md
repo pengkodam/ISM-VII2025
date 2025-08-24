@@ -10,6 +10,13 @@ This keynote speech demonstrates through a multi-agent framework applied to inco
 
 Beyond technical contributions, this keynote speaks to the professional identity of statisticians in the 21st century. Far from being displaced, they are repositioned as ethical stewards and co-creators of machine intelligence. As AI systems grow in influence and complexity, the demand for statistical reasoning and ethical judgment becomes not only relevant—but urgent.
 
+## Generated summaries
+
+[Audio] [https://notebooklm.google.com/notebook/4c1bd8d6-b1f7-4244-b393-7d5532d01a27?artifactId=0a6e7694-27ae-4bcc-9015-39ae7e08f119](https://notebooklm.google.com/notebook/4c1bd8d6-b1f7-4244-b393-7d5532d01a27?artifactId=0a6e7694-27ae-4bcc-9015-39ae7e08f119)
+[Video] [https://notebooklm.google.com/notebook/4c1bd8d6-b1f7-4244-b393-7d5532d01a27?artifactId=4ee043fd-a8df-4bbe-9244-7e3f577db090](https://notebooklm.google.com/notebook/4c1bd8d6-b1f7-4244-b393-7d5532d01a27?artifactId=4ee043fd-a8df-4bbe-9244-7e3f577db090)
+
+
+
 ## Useful Sites
 
 - [Folktables](https://github.com/socialfoundations/folktables)

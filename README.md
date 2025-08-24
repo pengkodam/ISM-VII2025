@@ -1,6 +1,6 @@
 # Statistician in the Loop – Reimagining the Statistician for the Age of AI
 
-This repository contains materials for the keynote address titled "Statistician in the Loop – Reimagining the Statistician for the Age of AI".
+This repository contains materials for the plenary session titled "Statistician in the Loop – Reimagining the Statistician for the Age of AI".
 
 ## Abstract
 

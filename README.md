@@ -17,9 +17,55 @@ Beyond technical contributions, this keynote speaks to the professional identity
 
 ## Reproducibility Instructions
 
-To ensure that you are using the complete and correct dataset, please follow these steps:
+To ensure that you are using the complete and correct dataset, please follow these steps. Following this order is crucial to prevent the use of synthetic data and to ensure the reproducibility of the results:
 
 1. **Run the `california_pums_full_eda.ipynb` notebook.** This notebook will download and process the data, creating the `california_pums_2023_complete.csv` file.
-2. **Run the `demo 23082025.ipynb` notebook.** This notebook uses the `california_pums_2023_complete.csv` file generated in the previous step to perform the analysis.
+2. **Run the `short_demo.ipynb` notebook.** This notebook uses the `california_pums_2023_complete.csv` file generated in the previous step to perform the analysis.
+3. **Run the `multi_agents_demo.ipynb` notebook.** Choose **Option 3** for best experience. Other options are WIP.
 
-Following this order is crucial to prevent the use of synthetic data and to ensure the reproducibility of the results.
+**Global commands**  (works at any point)
+
+**N or NEXT** → go to the next agent
+
+**S or SKIP** → jump straight to the end
+
+**T or TERMINATE** → stop immediately
+
+Append N after a choice to auto-continue (e.g., B N)
+
+Case-insensitive; short notes after your choice are fine
+
+**Agent 1 — StatisticalFeedbackAgent (only step with a menu)**
+
+Choose letter or word:
+
+A / DOCUMENT — report observed gaps as findings (no constraints)
+
+B / FAIRNESS — exclude protected attributes (SEX, RAC1P)
+
+C / ENGINEER — add controls/interactions to mitigate bias
+Examples: A, DOCUMENT N, B - prioritize fairness. N, ENGINEER
+
+**Agent 2 — HumanStatistician (acknowledges your choice)**
+
+Typical input: N / NEXT
+
+**Agent 3 — BayesianInferenceAgent**
+
+Typical input: N / NEXT
+(It applies your choice from Agent 1; no menu here.)
+
+**Agent 4 — ConformalPredictionAgent**
+
+Typical input: N / NEXT
+
+**Agent 5 — VisualizationAgent (code-only output)**
+
+It returns one Python code block that saves PNGs locally and prints file paths.
+
+Typical input: NEXT or just let it finish.
+
+Tip: You can use **SKIP anytime to jump to the end, or TERMINATE to stop.**
+
+
+

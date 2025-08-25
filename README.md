@@ -22,6 +22,7 @@ Beyond technical contributions, this keynote speaks to the professional identity
 
 - [Folktables](https://github.com/socialfoundations/folktables)
 - [Public Use Microdata Sample (PUMS)](https://www.census.gov/programs-surveys/acs/microdata/access.html)
+- [AG2 Agent library](https://github.com/ag2ai/ag2)
 
 ## Reproducibility Instructions
 
